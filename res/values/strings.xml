@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Clock Live Wallpaper</string>
+    <string name="wallpaper_description">Clock Live Wallpaper from Sylvain Saurel</string>
+    <string name="wallpaper_lbl">Clock Live Wallpaper</string>
+    <string name="display_hand_sec">Display hand seconds</string>
+    <string name="set_clock_lw">Set Clock LW</string>
+    <string name="display_hand_sec_txt">Display hand sec</string>
+    <string name="enabled">enabled</string>
+    <string name="disabled">disabled</string>
+    <string name="show_screencast">Show tutorial</string>
+    <string name="show_source">Show source code</string>
+    <string name="other_apps">Other Apps</string>
+    <string name="copy_ssaurel">(c) ssaurel</string>
+
+</resources>
