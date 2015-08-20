@@ -66,8 +66,8 @@ public class AnalogClock extends View {
 			float hour = cal.get(Calendar.HOUR_OF_DAY);
 			//draw hands
 			paint.setColor(colors[0]);
-			canvas.drawLine(x, y, (float) (x + (radius * 0.5f) * Math.cos(Math.toRadians((hour / 12.0f * 360.0f) - 90f))),
-					(float) (y + (radius * 0.5f) * Math.sin(Math.toRadians((hour / 12.0f * 360.0f) - 90f))), paint);
+			canvas.drawLine(x, y, (float) (x + (radius * 0.5f) * Math.cos(Math.toRadians(((hour + min/60f) / 12.0f * 360.0f) - 90f))),
+					(float) (y + (radius * 0.5f) * Math.sin(Math.toRadians(((hour + min/60f)/ 12.0f * 360.0f) - 90f))), paint);
 			canvas.save();
 			paint.setColor(colors[1]);
 			canvas.drawLine(x, y, (float) (x + (radius * 0.6f) * Math.cos(Math.toRadians((min / 60.0f * 360.0f) - 90f))),
