@@ -111,7 +111,7 @@ public class ClockWallpaperService extends WallpaperService {
 
 		private void draw(Canvas canvas) {
 			canvas.drawColor(bgColor);
-			clock.config(width / 2, height / 2, (int) (width * 0.6f),
+			clock.config(width / 2, height /2 , (int) (width * 0.8f),
 					new Date(), paint, colors, displayHandSec);
 			clock.draw(canvas);
 		}
