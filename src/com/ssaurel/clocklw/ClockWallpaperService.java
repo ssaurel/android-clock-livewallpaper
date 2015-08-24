@@ -38,7 +38,7 @@ public class ClockWallpaperService extends WallpaperService {
 
 		private Paint paint;
 		/** hands colors for hour, min, sec */
-		private int[] colors = { 0xFFFF0000, 0xFF0000FF, 0xFFA2BC13 };
+		private int[] colors = { 0xFF777777, 0xFF000000, 0xFFA2BC13 };
 		private int bgColor;
 		private int width;
 		private int height;
@@ -57,6 +57,7 @@ public class ClockWallpaperService extends WallpaperService {
 			paint.setAntiAlias(true);
 			paint.setStyle(Paint.Style.STROKE);
 			paint.setStrokeWidth(5);
+            paint.setStrokeJoin(Paint.Join.ROUND);
 			bgColor = Color.parseColor("#C0C0C0");
 			clock = new AnalogClock(getApplicationContext());
 			handler.post(drawRunner);
