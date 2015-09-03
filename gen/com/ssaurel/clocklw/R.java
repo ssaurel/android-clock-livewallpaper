@@ -16,6 +16,8 @@ public final class R {
         public static final int whiteclock=0x7f020002;
         public static final int widgetdial=0x7f020003;
         public static final int widgetdial_org=0x7f020004;
+        public static final int woodenclock=0x7f020005;
+        public static final int woodenclock_src=0x7f020006;
     }
     public static final class layout {
         public static final int main=0x7f030000;
